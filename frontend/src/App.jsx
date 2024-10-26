@@ -2,6 +2,7 @@ import React from 'react';
 import { useEffect, useState } from 'react'
 
 import axios from 'axios';
+import { document } from 'postcss';
 function App() {
     const [jokes, setJokes] = useState([])
     useEffect(()=>{
